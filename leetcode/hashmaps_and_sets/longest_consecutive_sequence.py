@@ -17,7 +17,6 @@ class Solution:
                     current += 1
                     curr += 1
                 max_seq = max(curr, max_seq)
-
         return max_seq
 
 if __name__ == "__main__":
