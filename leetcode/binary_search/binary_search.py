@@ -1,4 +1,5 @@
 from typing import List
+
 class Solution:
 
     def search(self, nums: List[int], target: int) -> int:
@@ -18,5 +19,5 @@ class Solution:
 
 if __name__ == "__main__":
     input_ar = [-1,0,3,5,9,12]
-    print(Solution().search(input_ar, 9)) # 
-    print(Solution().search(input_ar, 2)) # 
+    print(Solution().search(input_ar, 9)) # 4
+    print(Solution().search(input_ar, 2)) # -1
